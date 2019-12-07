@@ -26,16 +26,19 @@ def buscarUsuario(idUsuario):
 
     if(usuario == None):
         print("Usuario no encontrado")
+        return -1
     else:
         print("Usuario", usuario)
+        print("ID: ", usuario['_id'])
 
 
-usuarioNuevo = {
-    "nombre" : "Jorge",
-    "segundoNombre" : "Damián",
-    "paterno" : "Díaz",
-    "materno" : "Gómez",
-    "escuela" : "ESIME ZAC"
-}
+#usuarioNuevo = {
+#    "_id" : "13720737217186",
+#    "nombre" : "Alfredo",
+#    "segundoNombre" : "Tonatiuh",
+#    "paterno" : "Díaz",
+#    "materno" : "Gómez",
+#    "escuela" : "ESCOM"
+#}
 
-nuevoRegistro(usuarioNuevo)
+#nuevoRegistro(usuarioNuevo)
